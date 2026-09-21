@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">A colorful web development banner</title>
+  <desc id="desc">HTML, CSS and JavaScript labels connected across a warm abstract banner.</desc>
+  <rect width="1200" height="280" fill="#f4eadc"/>
+  <circle cx="1060" cy="80" r="170" fill="#f5b483"/>
+  <circle cx="130" cy="230" r="180" fill="#d95d39"/>
+  <path d="M0 80 Q300 220 620 80 T1200 80" fill="none" stroke="#20303c" stroke-width="12"/>
+  <g font-family="Georgia, serif" font-size="56" font-weight="700" fill="#20303c">
+    <text x="90" y="112">HTML</text>
+    <text x="500" y="215">CSS</text>
+    <text x="850" y="112">JavaScript</text>
+  </g>
+</svg>
