@@ -1,17 +1,31 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Division layout</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Hello world!</title>
 </head>
+
 <body>
-  <main>
-    <p>Resize the browser window to see these divisions move from two columns into one.</p>
-    <h2>Content</h2>
-    <p>This division contains the main text. Its width changes with the viewport.</p>
-    <h2>Aside</h2>
-    <p>This division contains supporting information and stacks below the content on a small screen.</p>
-  </main>
+
+<div style="position: relative; width: auto; margin: auto;"> <!--Note the style attribute.  Using CSS Box Model.  This is the containing div -->
+ <div style="position: absolute; top: 75px; left: 250px; width: 240px; background-color: azure;">
+ Content 1 Here
+ </div>
+ <div style="position: absolute; top: 10px; left: 5px; width: 240px; height: 150px; background-color: pink;">
+ Space for 2
+ </div>
+ <div style="position: absolute; top: 25px; left: 510px; width: 210px; height: 125px; background-color: yellow;">
+ And even more space here
+ </div>
+ </div> <!--end of containing div-->
+ 
+<div align="center">
+   This is some text!
+</div>
+
+  
 </body>
+
 </html>
